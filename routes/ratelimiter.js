@@ -23,10 +23,10 @@ export const rateLimiter = rateLimit({
         await Utils.renderEjs({
           title: "tiktok-js - Error (limit exceded) ",
           result: {
-            message: "Limit api demo exceeded",
+            message: "Limit exceeded",
             errors: JSON.stringify({
               message:
-                "rate limit api for 5x/24 hour has exceeded! you can deploy it self on vercel by following: https://github.com/motebaya/tiktok-js?tab=readme-ov-file#setup-web-server",
+                "rate limit api for 5x/24 hour has exceeded! you can deploy it self on vercel by following: https://www.instagram.com/_falfal12?igsh=ZDU2cTh4NjZqcGJq",
             }),
           },
         })
