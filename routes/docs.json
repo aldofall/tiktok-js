@@ -15,7 +15,7 @@
   },
   "servers": [
     {
-      "url": "http://localhost/api/v1",
+      "url": "https://aldo-toktokdownloader.vercel.app/api/v1",
       "description": "default api route"
     }
   ],
@@ -462,3 +462,4 @@
     }
   }
 }
+
