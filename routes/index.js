@@ -18,7 +18,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/about", (req, res) => {
-  res.status(200).render("about", { title: "About - TiktokDL" });
+  res.status(200).render("about", { title: "About - Tiktok" });
 });
 
 /**
@@ -34,3 +34,4 @@ router.use("*", (req, res) => {
 });
 
 export default router;
+
